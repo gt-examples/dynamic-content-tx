@@ -1,0 +1,204 @@
+{
+  "31ebc3e98f412ccf": [
+    {
+      "c": "Notificaciones traducidas",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        "Mensajes de notificación de un backend simulado, cada uno traducido individualmente con ",
+        {
+          "c": "tx()",
+          "i": 3,
+          "t": "code"
+        },
+        "."
+      ],
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "5af50a0747c1ed18": [
+    {
+      "c": "Citas traducidas",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        "Estas citas están definidas como cadenas de texto simples y se traducen en el momento de la solicitud usando ",
+        {
+          "c": "tx()",
+          "i": 3,
+          "t": "code"
+        },
+        "."
+      ],
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "69ea99bef0cf0a52": [
+    {
+      "c": "Artículos traducidos",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        "Títulos y resúmenes de artículos de una fuente de contenido, traducidos en tiempo de ejecución usando ",
+        {
+          "c": "tx()",
+          "i": 3,
+          "t": "code"
+        },
+        "."
+      ],
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "798c4052b06be6fd": [
+    {
+      "c": "Traducción en tiempo de ejecución de contenido dinámico",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": [
+        "Esta demo muestra cómo traducir contenido que no se conoce en tiempo de compilación. Usando ",
+        {
+          "c": "<Tx>",
+          "i": 3,
+          "t": "code"
+        },
+        " y ",
+        {
+          "c": "tx()",
+          "i": 4,
+          "t": "code"
+        },
+        ", las cadenas dinámicas provenientes de bases de datos, APIs o entradas del usuario pueden traducirse al vuelo en componentes de servidor."
+      ],
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "f07311d0176152c9": [
+    {
+      "c": "Cómo funciona",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        {
+          "c": [
+            {
+              "c": "tx() para cadenas de texto",
+              "i": 4,
+              "t": "h4"
+            },
+            {
+              "c": [
+                "La función ",
+                {
+                  "c": "tx()",
+                  "i": 6,
+                  "t": "code"
+                },
+                " traduce una cadena de texto simple en tiempo de ejecución en el servidor. Acepta cualquier valor de cadena y devuelve la versión traducida para el idioma actual."
+              ],
+              "i": 5,
+              "t": "p"
+            }
+          ],
+          "i": 3,
+          "t": "div"
+        },
+        {
+          "c": [
+            {
+              "c": [
+                "<Tx> para JSX"
+              ],
+              "i": 8,
+              "t": "h4"
+            },
+            {
+              "c": [
+                "El componente ",
+                {
+                  "c": "<Tx>",
+                  "i": 10,
+                  "t": "code"
+                },
+                " funciona como ",
+                {
+                  "c": "<T>",
+                  "i": 11,
+                  "t": "code"
+                },
+                ", pero traduce su contenido en tiempo de ejecución en lugar de en tiempo de compilación. Úsalo cuando el contenido interno sea dinámico o no se conozca de antemano."
+              ],
+              "i": 9,
+              "t": "p"
+            }
+          ],
+          "i": 7,
+          "t": "div"
+        },
+        {
+          "c": [
+            {
+              "c": "Cuándo usar la traducción en tiempo de ejecución",
+              "i": 13,
+              "t": "h4"
+            },
+            {
+              "c": [
+                "Usa ",
+                {
+                  "c": "tx()",
+                  "i": 15,
+                  "t": "code"
+                },
+                " y ",
+                {
+                  "c": "<Tx>",
+                  "i": 16,
+                  "t": "code"
+                },
+                " para contenido proveniente de fuentes externas: bases de datos, APIs, plataformas CMS o entradas del usuario. Para texto de interfaz estático conocido en tiempo de compilación, prefiere ",
+                {
+                  "c": "<T>",
+                  "i": 17,
+                  "t": "code"
+                },
+                " y ",
+                {
+                  "c": "getGT()",
+                  "i": 18,
+                  "t": "code"
+                },
+                " para un mejor rendimiento."
+              ],
+              "i": 14,
+              "t": "p"
+            }
+          ],
+          "i": 12,
+          "t": "div"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    }
+  ],
+  "f30550f2c172a309": {
+    "c": "Traducción de Contenido Dinámico",
+    "i": 1,
+    "t": "h1"
+  }
+}
