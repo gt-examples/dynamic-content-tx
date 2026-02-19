@@ -19,6 +19,7 @@
       "t": "p"
     }
   ],
+  "35f63e20205e4714": "Traduction à l’exécution de contenu dynamique à l’aide de Tx et tx() de gt-next.",
   "5af50a0747c1ed18": [
     {
       "c": "Citations traduites",
@@ -47,7 +48,7 @@
     },
     {
       "c": [
-        "Titres et résumés d'articles provenant d'une source de contenu, traduits à l'exécution avec ",
+        "Titres et résumés d'articles provenant d'une source de contenu, traduits à l'exécution à l'aide de ",
         {
           "c": "tx()",
           "i": 3,
@@ -61,7 +62,7 @@
   ],
   "798c4052b06be6fd": [
     {
-      "c": "Traduction à l'exécution de contenu dynamique",
+      "c": "Traduction en temps réel de contenu dynamique",
       "i": 1,
       "t": "h2"
     },
@@ -85,6 +86,7 @@
       "t": "p"
     }
   ],
+  "9c764cb28c1cdb5e": "Traduction de contenu dynamique | Traduction générique",
   "f07311d0176152c9": [
     {
       "c": "Comment ça marche",
