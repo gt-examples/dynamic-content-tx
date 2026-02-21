@@ -43,6 +43,8 @@ const articles = [
 export default async function Home() {
   const gt = await getGT();
 
+  const ariaGithub = gt("View on GitHub");
+
   // tx() for string-level runtime translation of dynamic content
   const translatedQuotes = await Promise.all(
     quotes.map(async (q) => ({
@@ -68,6 +70,24 @@ export default async function Home() {
 
   return (
     <div className="min-h-screen bg-neutral-950 font-sans text-neutral-200">
+      {/* Example app disclaimer banner */}
+      <div className="bg-neutral-900 border-b border-neutral-800">
+        <div className="max-w-3xl mx-auto px-6 py-2 text-center text-xs text-neutral-500">
+          <T>
+            This is an example app demonstrating{" "}
+            <a
+              href="https://generaltranslation.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-neutral-300"
+            >
+              General Translation
+            </a>{" "}
+            features. Not a real product.
+          </T>
+        </div>
+      </div>
+
       <header className="border-b border-neutral-800 bg-neutral-950">
         <div className="max-w-3xl mx-auto px-6 py-5 flex items-center justify-between">
           <div className="flex items-center gap-3">
@@ -92,7 +112,7 @@ export default async function Home() {
               target="_blank"
               rel="noopener noreferrer"
               className="text-neutral-400 hover:text-neutral-200 transition-colors"
-              aria-label="View on GitHub"
+              aria-label={ariaGithub}
             >
               <svg
                 width="20"
@@ -228,7 +248,8 @@ export default async function Home() {
                   The <code className="text-neutral-300">tx()</code> function
                   translates a plain string at runtime on the server. It accepts
                   any string value and returns the translated version for the
-                  current locale.
+                  current locale. See the{" "}
+                  <a href="https://generaltranslation.com/en-US/docs/next/api/strings/tx" target="_blank" rel="noopener noreferrer" className="underline text-neutral-300 hover:text-neutral-100">tx() documentation</a>.
                 </p>
               </div>
               <div className="border-t border-neutral-800 pt-4">
@@ -256,7 +277,10 @@ export default async function Home() {
                   time, prefer{" "}
                   <code className="text-neutral-300">{"<T>"}</code> and{" "}
                   <code className="text-neutral-300">getGT()</code> for better
-                  performance.
+                  performance. Learn more about{" "}
+                  <a href="https://generaltranslation.com/en-US/docs/next/guides/dynamic-content" target="_blank" rel="noopener noreferrer" className="underline text-neutral-300 hover:text-neutral-100">dynamic content translation</a>{" "}
+                  and{" "}
+                  <a href="https://nextjs.org/docs/app/building-your-application/rendering/server-components" target="_blank" rel="noopener noreferrer" className="underline text-neutral-300 hover:text-neutral-100">Next.js server components</a>.
                 </p>
               </div>
             </div>

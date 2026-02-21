@@ -1,4 +1,5 @@
 {
+  "0c730b7f189776b6": "Ver en GitHub",
   "31ebc3e98f412ccf": [
     {
       "c": "Notificaciones traducidas",
@@ -19,7 +20,7 @@
       "t": "p"
     }
   ],
-  "35f63e20205e4714": "Traducción en tiempo de ejecución de contenido dinámico mediante Tx y tx() de gt-next.",
+  "35f63e20205e4714": "Traducción en tiempo de ejecución de contenido dinámico usando Tx y tx() de gt-next.",
   "5af50a0747c1ed18": [
     {
       "c": "Citas traducidas",
@@ -87,7 +88,7 @@
     }
   ],
   "9c764cb28c1cdb5e": "Traducción de contenido dinámico | Traducción genérica",
-  "f07311d0176152c9": [
+  "a2026d39ec40d6d1": [
     {
       "c": "Cómo funciona",
       "i": 1,
@@ -110,7 +111,13 @@
                   "i": 6,
                   "t": "code"
                 },
-                " traduce una cadena de texto simple en tiempo de ejecución en el servidor. Acepta cualquier valor de cadena y devuelve la versión traducida para el idioma actual."
+                " traduce una cadena de texto simple en tiempo de ejecución en el servidor. Acepta cualquier valor de cadena y devuelve la versión traducida para el idioma actual. Consulta la ",
+                {
+                  "c": "documentación de tx()",
+                  "i": 7,
+                  "t": "a"
+                },
+                "."
               ],
               "i": 5,
               "t": "p"
@@ -125,7 +132,7 @@
               "c": [
                 "<Tx> para JSX"
               ],
-              "i": 8,
+              "i": 9,
               "t": "h4"
             },
             {
@@ -133,29 +140,29 @@
                 "El componente ",
                 {
                   "c": "<Tx>",
-                  "i": 10,
+                  "i": 11,
                   "t": "code"
                 },
                 " funciona como ",
                 {
                   "c": "<T>",
-                  "i": 11,
+                  "i": 12,
                   "t": "code"
                 },
-                ", pero traduce su contenido en tiempo de ejecución en lugar de en tiempo de compilación. Úsalo cuando el contenido interno sea dinámico o no se conozca de antemano."
+                ", pero traduce sus elementos secundarios en tiempo de ejecución en lugar de en tiempo de compilación. Úsalo cuando el contenido interno sea dinámico o no se conozca de antemano."
               ],
-              "i": 9,
+              "i": 10,
               "t": "p"
             }
           ],
-          "i": 7,
+          "i": 8,
           "t": "div"
         },
         {
           "c": [
             {
               "c": "Cuándo usar la traducción en tiempo de ejecución",
-              "i": 13,
+              "i": 14,
               "t": "h4"
             },
             {
@@ -163,40 +170,61 @@
                 "Usa ",
                 {
                   "c": "tx()",
-                  "i": 15,
+                  "i": 16,
                   "t": "code"
                 },
                 " y ",
                 {
                   "c": "<Tx>",
-                  "i": 16,
+                  "i": 17,
                   "t": "code"
                 },
                 " para contenido proveniente de fuentes externas: bases de datos, APIs, plataformas CMS o entradas del usuario. Para texto de interfaz estático conocido en tiempo de compilación, prefiere ",
                 {
                   "c": "<T>",
-                  "i": 17,
+                  "i": 18,
                   "t": "code"
                 },
                 " y ",
                 {
                   "c": "getGT()",
-                  "i": 18,
+                  "i": 19,
                   "t": "code"
                 },
-                " para un mejor rendimiento."
+                " para un mejor rendimiento. Obtén más información sobre la ",
+                {
+                  "c": "traducción de contenido dinámico",
+                  "i": 20,
+                  "t": "a"
+                },
+                " y los ",
+                {
+                  "c": "componentes de servidor de Next.js",
+                  "i": 21,
+                  "t": "a"
+                },
+                "."
               ],
-              "i": 14,
+              "i": 15,
               "t": "p"
             }
           ],
-          "i": 12,
+          "i": 13,
           "t": "div"
         }
       ],
       "i": 2,
       "t": "div"
     }
+  ],
+  "c21d9afb44349243": [
+    "Esta es una aplicación de ejemplo que demuestra las funciones de ",
+    {
+      "c": "General Translation",
+      "i": 1,
+      "t": "a"
+    },
+    ". No es un producto real."
   ],
   "f30550f2c172a309": {
     "c": "Traducción de Contenido Dinámico",

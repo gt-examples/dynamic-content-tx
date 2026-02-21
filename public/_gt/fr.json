@@ -1,4 +1,5 @@
 {
+  "0c730b7f189776b6": "Voir sur GitHub",
   "31ebc3e98f412ccf": [
     {
       "c": "Notifications traduites",
@@ -48,7 +49,7 @@
     },
     {
       "c": [
-        "Titres et résumés d'articles provenant d'une source de contenu, traduits à l'exécution à l'aide de ",
+        "Titres et résumés d'articles provenant d'une source de contenu, traduits à l'exécution via ",
         {
           "c": "tx()",
           "i": 3,
@@ -86,8 +87,8 @@
       "t": "p"
     }
   ],
-  "9c764cb28c1cdb5e": "Traduction de contenu dynamique | Traduction générique",
-  "f07311d0176152c9": [
+  "9c764cb28c1cdb5e": "Traduction de contenu dynamique | Traduction générale",
+  "a2026d39ec40d6d1": [
     {
       "c": "Comment ça marche",
       "i": 1,
@@ -98,7 +99,7 @@
         {
           "c": [
             {
-              "c": "tx() pour les chaînes",
+              "c": "tx() pour les chaînes de caractères",
               "i": 4,
               "t": "h4"
             },
@@ -110,7 +111,13 @@
                   "i": 6,
                   "t": "code"
                 },
-                " traduit une chaîne de caractères brute à l'exécution côté serveur. Elle accepte n'importe quelle valeur de type chaîne et retourne la version traduite pour la locale courante."
+                " traduit une chaîne de caractères brute au moment de l'exécution côté serveur. Elle accepte n'importe quelle valeur de type chaîne et retourne la version traduite pour la locale actuelle. Consultez la ",
+                {
+                  "c": "documentation de tx()",
+                  "i": 7,
+                  "t": "a"
+                },
+                "."
               ],
               "i": 5,
               "t": "p"
@@ -125,7 +132,7 @@
               "c": [
                 "<Tx> pour JSX"
               ],
-              "i": 8,
+              "i": 9,
               "t": "h4"
             },
             {
@@ -133,29 +140,29 @@
                 "Le composant ",
                 {
                   "c": "<Tx>",
-                  "i": 10,
+                  "i": 11,
                   "t": "code"
                 },
                 " fonctionne comme ",
                 {
                   "c": "<T>",
-                  "i": 11,
+                  "i": 12,
                   "t": "code"
                 },
-                ", mais traduit ses enfants à l'exécution plutôt qu'au moment de la compilation. Utilisez-le lorsque le contenu est dynamique ou non connu à l'avance."
+                ", mais traduit ses enfants au moment de l'exécution plutôt qu'à la compilation. Utilisez-le lorsque le contenu est dynamique ou non connu à l'avance."
               ],
-              "i": 9,
+              "i": 10,
               "t": "p"
             }
           ],
-          "i": 7,
+          "i": 8,
           "t": "div"
         },
         {
           "c": [
             {
               "c": "Quand utiliser la traduction à l'exécution",
-              "i": 13,
+              "i": 14,
               "t": "h4"
             },
             {
@@ -163,40 +170,61 @@
                 "Utilisez ",
                 {
                   "c": "tx()",
-                  "i": 15,
+                  "i": 16,
                   "t": "code"
                 },
                 " et ",
                 {
                   "c": "<Tx>",
-                  "i": 16,
+                  "i": 17,
                   "t": "code"
                 },
-                " pour le contenu provenant de sources externes : bases de données, API, plateformes CMS ou saisie utilisateur. Pour le texte d'interface statique connu à la compilation, préférez ",
+                " pour le contenu provenant de sources externes : bases de données, API, plateformes CMS ou saisies utilisateur. Pour le texte d'interface statique connu à la compilation, préférez ",
                 {
                   "c": "<T>",
-                  "i": 17,
+                  "i": 18,
                   "t": "code"
                 },
                 " et ",
                 {
                   "c": "getGT()",
-                  "i": 18,
+                  "i": 19,
                   "t": "code"
                 },
-                " pour de meilleures performances."
+                " pour de meilleures performances. En savoir plus sur la ",
+                {
+                  "c": "traduction de contenu dynamique",
+                  "i": 20,
+                  "t": "a"
+                },
+                " et les ",
+                {
+                  "c": "composants serveur Next.js",
+                  "i": 21,
+                  "t": "a"
+                },
+                "."
               ],
-              "i": 14,
+              "i": 15,
               "t": "p"
             }
           ],
-          "i": 12,
+          "i": 13,
           "t": "div"
         }
       ],
       "i": 2,
       "t": "div"
     }
+  ],
+  "c21d9afb44349243": [
+    "Ceci est un exemple d'application illustrant les fonctionnalités de ",
+    {
+      "c": "General Translation",
+      "i": 1,
+      "t": "a"
+    },
+    ". Pas un vrai produit."
   ],
   "f30550f2c172a309": {
     "c": "Traduction de contenu dynamique",
